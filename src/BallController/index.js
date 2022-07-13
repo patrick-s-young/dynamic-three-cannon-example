@@ -1,13 +1,13 @@
 // Three js
-import * as THREE from 'three';
-// Ball creation
+import { Vector3 } from 'three';
+// Ball factory
 import { Ball } from '../Ball';
 
 export function BallController ({ world, scene }) {
   this.spawnNew = this.spawnNew.bind(this);
   this.deleteOutsideBoundry = this.deleteOutsideBoundry.bind(this);
   this.balls = [];
-  this.origin = new THREE.Vector3(0, 0, 0);
+  this.origin = new Vector3(0, 0, 0);
   this.boundryRadius = 4;
   this.world = world;
   this.scene = scene;
