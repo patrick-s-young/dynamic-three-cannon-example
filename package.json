@@ -1,0 +1,23 @@
+{
+  "name": "dynamic-three-cannon-example",
+  "version": "1.0.0",
+  "description": "Dynamically creating/disposing of three.js + cannon-es objects",
+  "main": "app.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "start": "webpack server --open --mode=development"
+  },
+  "keywords": [],
+  "author": "Patrick S. Young",
+  "license": "MIT",
+  "devDependencies": {
+    "cannon-es": "^0.19.0",
+    "cannon-es-debugger": "^1.0.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.137.5",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
